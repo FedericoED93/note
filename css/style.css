@@ -1,0 +1,56 @@
+header .upLinks {
+  text-align: end;
+}
+header .upLinks a {
+  font-weight: bold;
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: #7D7B76;
+  margin-left: 1rem;
+}
+header .upLinks button {
+  font-size: 1.5rem;
+  border: 0;
+  background-color: white;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+  color: #19CECE;
+}
+header .navHeader {
+  background-color: #19CECE;
+}
+header .navHeader .logoGrulla {
+  height: 10rem;
+}
+header .navHeader .dropdownMod {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+header .navHeader .dropdownLista li:hover {
+  background-color: #EDEDED;
+}
+header .navHeader .dropdownLista li a {
+  color: #19CECE;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

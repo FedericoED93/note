@@ -1,0 +1,6 @@
+@mixin links ($weightB, $standarFont, $None, $color){
+    font-weight:$weightB;
+    font-size:$standarFont;
+    text-decoration: $None;
+    color:$color;
+}

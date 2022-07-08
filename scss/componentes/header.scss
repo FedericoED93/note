@@ -1,0 +1,57 @@
+header {
+    .upLinks {
+        text-align: end;
+
+        a {
+            @include links($weightB, $standarFont, $None, #7D7B76, );
+            margin-left: 1rem;
+        }
+
+        button {
+            font-size: 1.5rem;
+            border: 0;
+            background-color: white;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+            margin-right: 0.5rem;
+            margin-left: 1rem;
+            color: map-get($coloresPrincipales, color1);
+        }
+    }
+
+    .navHeader {
+        background-color: map-get($coloresPrincipales, color1);
+
+        .logoGrulla {
+            height: 10rem;
+        }
+
+        .dropdownMod {
+            @include links($weightB, 1.2rem, $None, $color);
+
+
+        }
+
+        .dropdownLista {
+            li {
+
+
+                &:hover {
+                    background-color: map-get($coloresPrincipales, color5);
+                }
+
+                a {
+                    color: map-get($coloresPrincipales, color1);
+
+                    text-decoration: none;
+                    margin-left: 0.5rem;
+
+
+                }
+
+
+
+            }
+        }
+    }
+}
